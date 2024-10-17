@@ -36,14 +36,6 @@ public class Task2 {
 
         System.out.println("We have 3 libraries, chose which one to look. Press one of 1-3");
 
-
-//        int input = scanner1.nextInt();
-//        if (input > 3 || input < 1) {
-//            System.out.println("We dont have such library. Give from range 1-3.");
-//        } else {
-//            System.out.println("In Library ID " + Library.content(libraries, input).id + ". Name: " + Library.content(libraries, input).name + " there is books called: \n");
-//            Library.printContent(Library.content(libraries, input));
-//        }
         int input = scanner1.nextInt();
         while (input<1 || input>3){
             System.out.println("We dont have such library. Give from range 1-3.");
